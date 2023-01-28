@@ -1,0 +1,109 @@
+/* Navbar-Profile */
+
+.navbar-profile {
+    width: 38px;
+    height: 38px;
+    transition: 0.4s;
+    border-radius: 100%;
+}
+
+.content {
+    margin: 10px 10px;
+}
+
+@media (min-width: 768px) {
+
+    /* Display */
+    .desktop {
+        opacity: 1;
+        display: block;
+    }
+
+    .mobile {
+        opacity: 0;
+        display: none;
+    }
+
+
+    /* Sidebar */
+
+    .sidebar {
+        background-color: #2C3333;
+        width: 64px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 400rem;
+        display: flex;
+        /* align-items: center; */
+        justify-content: space-between;
+        padding: 0 0.8rem;
+        z-index: 100;
+    }
+
+    /* Sidebar-Profile */
+
+    .sidebar-profile {
+        width: 36px;
+        height: 36px;
+        margin-top: 4vh;
+        opacity: 0.6;
+        transition: 0.4s;
+        border-radius: 100%;
+        margin-bottom: 86px;
+    }
+
+    .sidebar-profile:hover {
+        opacity: 1;
+    }
+
+    /* Sidebar-icon */
+
+    .sidebar-icon {
+        width: 36px;
+        height: 36px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        opacity: 0.5;
+        transition: 0.5s;
+    }
+
+    .sidebar-icon:hover {
+        opacity: 1;
+    }
+
+    .sidebar-active {
+        width: 36px;
+        height: 36px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* logout */
+
+    .logout {
+        margin-top: 70vh;
+    }
+
+
+    /* Content */
+
+    .content {
+        padding-left: 70px;
+    }
+
+    /* Notif icon */
+
+    .notif-icon {
+        margin-top: -40px;
+        width: 36px;
+        height: 36px;
+        opacity: 0.5;
+        transition: 0.5s;
+    }
+
+    .notif-icon:hover {
+        opacity: 1;
+    }
+
+}

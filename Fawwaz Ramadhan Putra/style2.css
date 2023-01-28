@@ -1,0 +1,214 @@
+*, html, body 
+/* untuk berbeda denga default */
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%); */
+}
+
+.container 
+{
+    /* border: 1px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: rgba(2, 2, 2, 0.288); */
+    background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+}
+
+.wrapper 
+{
+    position: relative;
+    border-radius: 25px;
+    border: 1px solid white;
+    /* background-color: #eff0e7; */
+    width: 700px;
+    height: 480px;
+    padding: 16px;
+}
+
+.form-login
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-login
+{
+    border-radius: 25px;
+    border: 1px solid;
+    padding: 20px;
+    margin: 8px;
+    font-size: 18px;
+
+}
+
+.button-login
+{
+    position: relative;
+    left: 30%;
+    justify-content: center;
+    border: none;
+    padding: 20px;
+    font-size: 24px;
+    margin-top: 44px;
+    background-color: #837d7d;
+    color: white;
+    cursor: pointer;
+    width: 250px;
+    transition: 0.5s;
+    
+}
+
+.button-login:hover {
+    background-color: #FC9E4F;
+    color: white;
+  }
+
+.title 
+{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 12px;
+    padding: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.index
+{
+    background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+    /* align-items: center; */
+    /* justify-content: center; */
+    display: flex;
+    /* border: solid 1px red; */
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.absen
+{
+    display: grid;
+    /* border: solid 1px pink; */
+}
+
+label
+{
+    font-size: 30px;
+}
+
+.haloap
+{
+    margin-left: 8.5px;
+}
+
+.pass
+{
+    margin-left: 8.5px;
+}
+
+.notif-login
+{
+    background-color: tomato;
+    font-style: italic;
+    text-align: center;
+    padding: 8px;
+    margin: 4px;
+}
+
+.admin-body
+{
+    background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+    display:flex;
+    /* vertical-align:middle; */
+}
+.container-admin
+{
+    /* display: grid; */
+    /* background-color: red; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* margin-left: 36%; */
+    /* height:100vh; */
+    /* margin-top: 25%; */
+    /* margin: auto; */
+    /* background-color: aliceblue; */
+    /* width: 400px; */
+    /* height: 200px; */
+    margin: auto;
+    margin-top: 10%;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.apak
+{
+    font-size: 30px;
+    /* display: flex; */
+    justify-content: center;
+    /* margin: 20px; */
+    display: grid;
+}
+
+.notif-add
+{
+    font-size: 20px;
+    justify-self: center;
+}
+
+.button
+{
+    display: grid;
+    justify-content: center;
+}
+
+.input-pop
+{
+    background-color: whitesmoke;
+    border: #FC9E4F solid 0.5px;
+    height: 80px;
+    width: 820px;
+}
+
+.input
+{
+    background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+}
+
+.cancel
+{
+    display: grid;
+}
+
+.show-body
+{
+    background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    
+}
+
+
+
+.show-container
+{
+    display: grid;
+    background-color: whitesmoke;
+    justify-content: center;
+    margin: auto;
+    width: 40%;
+    /* margin-top: 20%; */
+
+}

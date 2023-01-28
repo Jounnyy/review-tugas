@@ -1,0 +1,9 @@
+admin: 
+nip:100 
+pw:admin123
+
+user: 
+nip:
+pw: ("123 all")
+
+maaf fitur kurang lengkap dikarena deadline & udh mode sangkuriang 2 hari padahal -_

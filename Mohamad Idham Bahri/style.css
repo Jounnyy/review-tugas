@@ -1,0 +1,92 @@
+/* clearing */
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: bisque;
+    margin: 0 auto;
+  }
+  
+  .wrapper {
+   border: 2px solid #333;
+   padding: 20px;
+  }
+  
+  .login-title {
+    text-align: center;
+  }
+  
+  .login-form {
+    padding: 12px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-input {
+    width: 100%;
+    border: none;
+    padding: 12px;
+    margin: 4px;
+    font-size: 18px;
+  }
+  
+  .login-button {
+    border: none;
+    padding: 12px;
+    font-size: 20px;
+    margin-top: 12px;
+    background-color: #333;
+    color: #eaeaea;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #eaeaea;
+    color: #333;
+    transition: .3s ease-in-out;
+  }
+
+  /* Tentang */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }

@@ -1,0 +1,130 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize;
+    background-color: bisque;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    min-height: 100vh;
+    
+    /* margin: 0 auto; */
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+  
+.wrapper-absensi {
+   /* border: 1px solid #333;
+   border-radius: 10%;
+   box-shadow: 6px 4px 10px -2px #333; */
+   opacity: .8;
+   padding: 20px;
+   width: 80%;
+}
+
+.wrapper-izin {
+    border: 1px solid #333;
+    box-shadow: 6px 4px 10px -2px #333;
+    opacity: .8;
+    padding: 20px;
+    width: 400px;
+ }
+
+
+  .message {
+    text-decoration: underline;
+  }
+  
+  .izin-form {
+    padding: 12px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .label-tgl{
+    width: 100%;
+    border: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 5px 0px 5px;
+    font-size: 18px;
+  }
+
+  input {
+    /* width: 100%; */
+    border: none;
+    padding: 12px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-left: 18px;
+    margin-right: 18px;
+    font-size: 18px;
+    box-shadow: 0 4px 6px -5px hsl(0, 0%, 40%), inset 0px 4px 6px -5px hsl(0, 0%, 2%);
+  }
+  
+  .edit-button , .izin-button {
+    border: none;
+    padding: 12px;
+    font-size: 20px;
+    margin: 10px 20px 0 20px ;
+    background-color: #333;
+    color: #eaeaea;
+    font-weight: bolder;
+    cursor: pointer;
+    box-shadow: 2px 4px 6px -2px #333;
+  }
+  
+  .izin-button:hover {
+    background-color: #958e8e;
+    color: #333;
+    /* transition: .3s ease-in-out; */
+  }
+
+  .izin-button:active {
+    background-color: #958e8e;
+    color: #333;
+    box-shadow: 2px 1px 6px -2px #333;
+    transform: translateY(4px);
+  }
+
+  .izin-button::backdrop {
+    background-color: #958e8e;
+    color: #333;
+    box-shadow: 2px 1px 6px -2px #333;
+    transform: translateY(4px);
+  }
+
+.table {
+    border: 4px solid #333;
+    padding: 16px;
+    font-size: 18px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.tr{
+   background-color: #333;
+   color: #eaeaea;
+   text-align: center; 
+}
+.th {
+    padding: 16px;
+    
+}
+.td{
+    background-color: #eaeaea;
+    color: black;
+    padding: 12px;
+}
+
+.td:hover{
+    background-color: #555;
+}
